@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Watson and Developers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap Sass -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+        <!-- /Bootstrap Sass -->       
+
+        <!-- my Sass - Css link -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- /my Sass - Css link -->
+    </head>
+
+
+    <body>
+
+        <!-- NAVBAR -->
+        <div class="container-fluid navbar-fixed-top" id="mainMenu">
+            <div class="row">
+                <div class="col-lg-3 col-md-10 col-sm-8 col-xs-8">
+                    <a href="index.html"><img src="img/icons/ibm_logo_white.png" id="ibm_logo" alt="ibm logo" class="hidden-md-down"></a>
+                    <a href="javascript:void(0)"><img src="img/icons/menu_mobile_white.png" alt="open menu" class="btnOpen hidden-lg-up" onclick="openMobileMenu()"></a>
+                </div>
+                <div class="col-lg-8 hidden-md-down">
+                    <ul class="list-inline pull-xs-right">
+                        <li class="list-inline-item list-unstyled"><a class="nav-link  capitalizeLI" href="index.html">Watson</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="research.html">Research center</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="developer.html">Developer</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="partnership.html">Partnerships</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-xs-4 p-r-0">
+                    <a href="#"><img src="img/pictures/profilePic.jpg" id="user_profile" alt="user profile" class="pull-xs-right m-t-0 m-r-0"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /NAVBAR -->
+
+        <!-- SUBMENU -->
+        <div id="subMenu" class="subMenu">
+            <a href="javascript:void(0)"><img src="img/icons/close_white.png" alt="close menu" onclick="closeMobileMenu()" class="btnClose"></a>
+            <ul class="list-inline">
+                <li><a href="index.html"><img src="img/icons/ibm_logo_white.png" id="ibm_logo" alt="ibm logo"></a></li>
+                <li> <a class="nav-link" href="index.html">Watson</a></li>
+                <li><a class="nav-link" href="research.html">Reseach Center</a></li>
+                <li><a class="nav-link" href="developer.html">Developer</a></li>
+                <li><a class="nav-link" href="partnership.html">Partnerships</a></li>
+                <li><a class="nav-link" href="video.html">Video</a></li>
+            </ul>
+        </div>
+        <!-- /SUBMENU -->
+
+
+        <!-- CONTENT -->
+        <div id="firstSectionDeveloper" class="container-fluid m-t-3">
+            <div class="row p-b-3">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center" style="margin-top: 150px;">
+                    <h1 class="title100">Build with Watson</h1>
+                    <h2 class="p-t-3">Enable cognitive computing features in your app using IBM Watson's Language, Vision, Speech and Data APIs.</h2>
+                    <button id="buttonDeveloper" class="m-t-3"><a href="#">See the services</a></button>
+                    <img src="img/pictures/startup.jpg" alt="developer watson" class="img-fluid m-t-3 p-t-3">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="secondSectionDeveloper" class="container-fluid p-t-3">
+            <div class="row p-b-3">
+                <div class="offset-xs-1 col-xs-10  p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-b-3">Download SDKs to start building with Watson APIs.</h1>
+                </div>
+                <div class="offset-xs-1 col-xs-10 col-sm-5 col-lg-2">
+                    <div class="card scaleHover">
+                        <img class="card-img-top img-fluid" src="img/pictures/node.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Node</h4>
+                            <a href="#" class="btn btn-primary btn-sm buttonBlue">Install</a>
+                            <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlue">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-xs-1 col-xs-10 offset-sm-0 col-sm-5 col-lg-2">
+                    <div class="card scaleHover">
+                        <img class="card-img-top img-fluid" src="img/pictures/java.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Java </h4>
+                            <a href="#" class="btn btn-primary btn-sm buttonBlue">Install</a>
+                            <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlue">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-xs-1 col-xs-10 col-sm-5 offset-lg-0 col-lg-2">
+                    <div class="card scaleHover">
+                        <img class="card-img-top img-fluid" src="img/pictures/python.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Python</h4>
+                            <a href="#" class="btn btn-primary btn-sm buttonBlue">Install</a>
+                            <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlue">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-xs-1 col-xs-10 offset-sm-0 col-sm-5 col-lg-2">
+                    <div class="card scaleHover">
+                        <img class="card-img-top img-fluid" src="img/pictures/ios.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">IOS</h4>
+                            <a href="#" class="btn btn-primary btn-sm buttonBlue">Install</a>
+                            <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlue">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-xs-1 col-xs-10 col-sm-5 offset-lg-0 col-lg-2">
+                    <div class="card scaleHover">
+                        <img class="card-img-top img-fluid" src="img/pictures/unity.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Unity</h4>
+                            <a href="#" class="btn btn-primary btn-sm buttonBlue">Install</a>
+                            <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlue">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="thirdSectionDeveloper" class="container p-t-3" >
+            <div class="row">
+                <div class="col-xs-12  p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3">Ressources</h1>
+                    <p class="p-t-2 p-b-3">Want to learn more about natural language processing, computer vision and cognitive technology to power your applications? Get started with these resources. Explore technical guides, briefings on cognitive technologies and instructional webcasts.</p>
+                    <h2 class="m-t-3 text-lg-left m-l-0">Language</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-xs-3 col-xs-6 text-xs-center offset-lg-0 col-lg-6" >
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Alchemy Language</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div id="titleLanguage" class="offset-xs-3 col-xs-6 text-xs-center  offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Conversation</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Dialog</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Document Conversion</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Language Translation</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Natural Language Classifier</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Personality Insights</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Retrieve and Rank</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Tone Analyzer</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+
+                <div class="col-xs-12 m-t-3 text-xs-center">
+                    <h2 class="m-t-3 text-lg-left m-l-0">Speech</h2>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Speech to Text</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Text to Speech</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+
+                <div class="col-xs-12 m-t-3 text-xs-center">
+                    <h2 class="m-t-3 text-lg-left m-l-0">Vision</h2>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Visual Recognition</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+
+                <div class="col-xs-12 m-t-3 text-xs-center">
+                    <h2 class="m-t-3 text-lg-left m-l-0">Data Insights</h2>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">AlchemyData News</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+                <div class="offset-xs-3 col-xs-6 text-xs-center m-t-3 offset-lg-0 col-lg-6">
+                    <h5 class="m-b-2 p-y-3 whiteFont bgLanguageDeveloper">Tradeoff Analytics</h5>
+                    <a href="#" class="btn btn-primary btn-sm buttonBlack">Learn More</a>
+                    <a href="#" class="btn btn-primary btn-sm secondButtonMargin buttonBlack">Documentation</a>
+                </div>
+            </div>
+        </div>
+        <!-- /CONTENT -->
+
+
+        <!-- FOOTER -->
+        <div id="footer" class="container-fluid p-t-3 p-b-3 m-t-3">
+            <div class='row'>
+                <div class="col-md-12 text-xs-center offset-lg-1 col-lg-10 text-lg-left">
+                    <ul class="nav nav-inline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Term of use</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessibility</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item pull-lg-right">
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    United States - English
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <button class="dropdown-item" type="button">United Kingdom - English</button>
+                                    <button class="dropdown-item" type="button">France - French</button>
+                                    <button class="dropdown-item" type="button">Spain - Spanish</button>
+                                    <button class="dropdown-item" type="button">Germany - German</button>
+                                    <button class="dropdown-item" type="button">Qatar - Arab</button>
+                                    <button class="dropdown-item" type="button">Greece - Greek</button>
+                                    <button class="dropdown-item" type="button">Belgium - Dutch</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+
+
+
+
+
+        <!-- Bootstrap JS and JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+        <!-- /Bootstrap JS and JQuery -->
+
+
+        <!-- my JavaScript - JQuery link -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- /my JavaScript - JQuery link -->
+    </body>
+</html>
+

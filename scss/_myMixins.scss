@@ -1,0 +1,106 @@
+/************* Only Mixins and Functions here *************/
+/************* Only Mixins and Functions here *************/
+/************* Only Mixins and Functions here *************/
+/************* Only Mixins and Functions here *************/
+/************* Only Mixins and Functions here *************/
+
+
+// #mainMenu Mixin
+@mixin ul_mainMenu{
+    padding-top: 27px;
+    padding-bottom: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+// Mobile menu
+@mixin hamburger_menu{
+    width: 35px;
+    height:auto;
+    padding-top: 21px;
+}
+
+// Resize title when the width is under 500px
+@mixin title_under_500{
+    font-size: 2.7em;
+    font-weight: 100;
+}
+
+// Title of main section
+@mixin title100{
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+// Button into cards in the second section of the developer's page
+@mixin button_developer_cards{
+    background-color: white;
+    color: $high_blue;
+    border-radius: 50px;
+    padding-left: 11px;
+    padding-right: 11px;
+    &:hover{
+        background-color: $high_blue;
+        color: white;
+        transition: 0.7s;
+    }
+}
+
+// Buttons under services in the developer page
+@mixin button_black{
+    background-color: white;
+    color: $light_black;
+    padding-left: 11px;
+    padding-right: 11px;
+    border: 1px solid #0275d8;
+    border-radius: 0px;
+    &:hover{
+        background-color: #0275d8;
+        color: white;
+        transition: 0.7s;
+        border: 1px solid #0275d8;
+    }
+    @media (max-width: 991px){
+        margin-bottom: 5px;
+    }
+}
+
+// Cards in the video page
+@mixin card_parameters{
+    background-color: #fafafa;
+    color: $light_black;
+    border: 1px solid $light_black;
+    border-radius: 0;
+    @media (max-width: 542px){
+        border: none;
+        padding-bottom: 78px;
+    }
+    h4{
+        font-weight: 100;
+    }
+    a{
+        text-decoration: none;
+        &:hover{
+            color: $light_black;
+        }
+    }
+}
+
+// Define all parameters for explainations before pictures in the partnership page (text before picture)
+@mixin partnerPresentation{
+    background-color: $black_gray;
+    color: white;
+    img{
+        width: 120px;
+        height: auto;
+    }
+    a{
+        text-decoration: none;
+        color: $light_blue;
+        &:hover{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IBM Research Center</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap Sass -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+        <!-- /Bootstrap Sass -->
+
+        <!-- my Sass - Css link -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- /my Sass - Css link -->
+    </head>
+
+
+    <body>
+
+        <!-- NAVBAR -->
+        <div class="container-fluid navbar-fixed-top" id="mainMenu">
+            <div class="row">
+                <div class="col-lg-3 col-md-10 col-sm-8 col-xs-8">
+                    <a href="index.html"><img src="img/icons/ibm_logo_white.png" id="ibm_logo" alt="ibm logo" class="hidden-md-down"></a>
+                    <a href="javascript:void(0)"><img src="img/icons/menu_mobile_white.png" alt="open menu" class="btnOpen hidden-lg-up" onclick="openMobileMenu()"></a>
+                </div>
+                <div class="col-lg-8 hidden-md-down">
+                    <ul class="list-inline pull-xs-right">
+                        <li class="list-inline-item list-unstyled"><a class="nav-link  capitalizeLI" href="index.html">Watson</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="research.html">Research center</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="developer.html">Developer</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="partnership.html">Partnerships</a></li>
+                        <li class="list-inline-item"><a class="nav-link capitalizeLI" href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-4 col-xs-4 p-r-0">
+                    <a href="#"><img src="img/pictures/profilePic.jpg" id="user_profile" alt="user profile" class="pull-xs-right m-t-0 m-r-0"></a>
+                </div>
+            </div>
+        </div>
+        <!-- /NAVBAR -->
+
+        <!-- SUBMENU -->
+        <div id="subMenu" class="subMenu">
+            <a href="javascript:void(0)"><img src="img/icons/close_white.png" alt="close menu" onclick="closeMobileMenu()" class="btnClose"></a>
+            <ul class="list-inline">
+                <li><a href="index.html"><img src="img/icons/ibm_logo_white.png" id="ibm_logo" alt="ibm logo"></a></li>
+                <li> <a class="nav-link" href="index.html">Watson</a></li>
+                <li><a class="nav-link" href="research.html">Reseach Center</a></li>
+                <li><a class="nav-link" href="developer.html">Developer</a></li>
+                <li><a class="nav-link" href="partnership.html">Partnerships</a></li>
+                <li><a class="nav-link" href="video.html">Video</a></li>
+            </ul>
+        </div>
+        <!-- /SUBMENU -->
+
+
+        <!-- CONTENT -->
+        <div class="container-fluid m-t-3 parallax" style="background-image: url('img/pictures/headquarters.jpg');">
+            <div class="row whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center" style="margin-top: 150px; height: 500px;">
+                    <h1 class="title100">IBM Research</h1>
+                    <h1>THINKLab</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="firstSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3 p-b-2">We Make the future</h1>
+                    <p>At THINKLab, IBM researchers push the boundaries of science and technology alongside forward-thinking business pioneers. We use advanced technology and old-fashioned collaboration to shape the future, together.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid parallax" style="background-image: url('img/pictures/ibm_future.jpg');">
+            <div class="row">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center parallaxHeightDiv"></div>
+            </div>
+        </div>
+
+
+        <div id="secondSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3 p-b-2">A History of Progress</h1>
+                    <p>For 70 years, IBM Research has been an innovation engine for clients. From helping the Apollo space missions land on the moon to creating the first central reservation system for the travel industry. From the technology behind laser eye surgery to a question answering computer called Watson, IBM Research has a long legacy of working with clients to define the future of technology.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid parallax" style="background-image: url('img/pictures/ibm_old.jpg');">
+            <div class="row">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center parallaxHeightDiv"></div>
+            </div>
+        </div>
+
+
+        <div id="thirdSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3">Elite minds - Real solutions</h1>
+                    <h1 class="title100"><b>X</b></h1>
+                    <h1 class="title100 p-b-3">Harness the Galaxy - Meet in Space</h1>
+                    <p>As industry leaders, our clients understand their own businesses and its challenges. The knowledge they bring to THINKLab is essential for creating change. when paired with one of the largest private research institutions in the world, we have the right combination of discplines to solve the biggest business and technical challenges.</p>
+                    <p>THINKLab is home to a large-scale interactive visualization featuring a galaxy of research innovations - each represented by a polyhedron. Using the galaxy of research, clients and scientists can collaborate to discover data, build models, conduct experiments and validate new solutions.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid parallax" style="background-image: url('img/pictures/meeting_room.jpg');">
+            <div class="row">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center parallaxHeightDiv"></div>
+            </div>
+        </div>
+
+
+        <div id="fourthSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3 p-b-2">Boundless Potential</h1>
+                    <p>Our results are as distinctive as each of our clients' businesses. Together we may discover an all-encompassing solution. Or we may uncover even more questions. Once we collaborate at THINKLab, you become part of a dynamic innovative community. You'll also be inspired to break new ground and envision the future in ways never thought possible before</p>
+                    <a href="partnership.html">See Collaborations</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid parallax" style="background-image: url('img/pictures/partnership.jpg');">
+            <div class="row">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center parallaxHeightDiv"></div>
+            </div>
+        </div>
+
+
+        <div id="fifthSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3 p-b-2">Domain of Expertise</h1>
+                    <p>22 Years of Patent Leadership</p>
+                    <p>3000 Researchers</p>
+                    <p>12 Labs</p>
+                    <select class="m-t-3" id="selectExpertise" style="background-color: white; border: 1px solid #171718; padding: 10px;">
+                        <option value="management">Predictive Asset Management</option>
+                        <option value="agriculture">Agriculture</option>
+                        <option value="analytics">Analytics & Data Sciences</option>
+                        <option value="cognitive">Cognitive Computing</option>
+                        <option value="commerce">Commerce Analytics</option>
+                        <option value="computational">Computational Biology</option>
+                        <option value="customer">Customer Experience</option>
+                        <option value="energy">Energy & Utilities</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="financial">Financial Services</option>
+                        <option value="iot">Internet of Things 3.0</option>
+                        <option value="mobile">Mobile & Wearables</option>
+                        <option value="cloud">Next Generation Cloud</option>
+                        <option value="security">Security & Encryption</option>
+                        <option value="nano">Silicon & Nano Sciences</option>
+                        <option value="cities">Smarter Cities</option>
+                    </select>
+                    <div class="col-xs-12 m-t-3"> 
+                        <div id="selectExpertiseDivLeft" class="col-xs-12 text-xs-center col-xl-6 m-b-3 selectExpertise titleWeight display-4"></div>
+                        <div id="selectExpertiseDivRight" class="col-xs-12 text-xs-center col-xl-6 selectExpertise titleWeight display-4"></div>
+                    </div>
+                    <div id="selectExpertiseNote" class="text-xs-center col-xs-12 m-t-3"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid parallax" style="background-image: url('img/pictures/ibm_watson_health.jpg');">
+            <div class="row">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center parallaxHeightDiv"></div>
+            </div>
+        </div>
+
+
+        <div id="sixthSectionResearch" class="container-fluid">
+            <div class="row p-t-3 p-b-3 whiteFont">
+                <div class="offset-xs-1 col-xs-10 p-t-3 p-b-3 text-xs-center">
+                    <h1 class="title100 p-t-3 p-b-3">Project Example</h1>
+                    <h3 class="m-b-3">Neurosynaptic systems</h3>
+                    <p>Our results are as distinctive as each of our clients' businesses. Together we may discover an all-encompassing solution. Or we may uncover even more questions. Once we collaborate at THINKLab, you become part of a dynamic innovative community. You'll also be inspired to break new ground and envision the future in ways never thought possible before</p>
+                </div>
+                <div class="offset-xs-1 col-xs-10 col-md-5 text-xs-center text-lg-left">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/5izS3lAZHmI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="p-t-3 p-b-3">IBM’s brain-inspired architecture consists of a network of neurosynaptic cores. Cores are distributed and operate in parallel. Cores operate—without a clock—in an event-driven fashion. Cores integrate memory, computation, and communication. Individual cores can fail and yet, like the brain, the architecture can still function. Cores on the same chip communicate with one another via an on-chip event-driven network. Chips communicate via an inter-chip interface leading to seamless scalability like the cortex, enabling creation of scalable neuromorphic systems.</p>
+                </div>
+                <div class="offset-xs-1 col-xs-10 offset-md-0 col-md-5 text-xs-center text-lg-left">
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pYJgqd3g6Ks" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <p class="p-t-3 p-b-3">A video camera on Hoover Tower at Stanford University is looking down at the plaza, below. A simulated network of IBM TrueNorth chips takes in the video data and locates interesting objects. Objects might look interesting to the system because they are moving or have a different color or texture than the background. The system then further processes those portions of the interesting video to determine what the objects are. It is trained in several specific categories, such as buses, cars, people, and cyclists. In a monitoring application, the camera would only need to communicate when it found an interesting object, rather than continually streaming video to a central location.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /CONTENT -->
+
+
+        <!-- FOOTER -->
+        <div id="footer" class="container-fluid p-t-3 p-b-3">
+            <div class='row'>
+                <div class="col-md-12 text-xs-center offset-lg-1 col-lg-10 text-lg-left"">
+                    <ul class="nav nav-inline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Term of use</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessibility</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item pull-lg-right">
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    United States - English
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <button class="dropdown-item" type="button">United Kingdom - English</button>
+                                    <button class="dropdown-item" type="button">France - French</button>
+                                    <button class="dropdown-item" type="button">Spain - Spanish</button>
+                                    <button class="dropdown-item" type="button">Germany - German</button>
+                                    <button class="dropdown-item" type="button">Qatar - Arab</button>
+                                    <button class="dropdown-item" type="button">Greece - Greek</button>
+                                    <button class="dropdown-item" type="button">Belgium - Dutch</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+
+
+
+
+
+        <!-- Bootstrap JS and JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+        <!-- /Bootstrap JS and JQuery -->
+
+        <!-- ParticuleGround PLUGIN -->
+        <script src="plugins/particules/jquery.particleground.min.js"></script>
+        <!-- /ParticuleGround PLUGIN --
+
+        <!-- my JavaScript - JQuery link -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- /my JavaScript - JQuery link -->
+    </body>
+</html>
+
